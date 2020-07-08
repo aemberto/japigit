@@ -1,0 +1,508 @@
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ git init
+Initialized empty Git repository in C:/Users/pinkh/Documents/School/IFT458/.git/
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ git config --global.user[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir japigit
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ cd japigit
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git init
+Initialized empty Git repository in C:/Users/pinkh/Documents/School/IFT458/japigit/.git/
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git config --global user.name "Andrea Embertoi[Kn"
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ giot[K[Kt config --global user.email aemberto@asu.edu
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ g[Kcd ..
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ git add.[K .japi.py
+fatal: pathspec '.japi.py' did not match any files
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ git add japi [K.py
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ git add japi.out
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ cd japigit
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ dio[Kr
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git commit -m "comment String"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ cd ..
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ cd ..[C[Cgit commit -m "comment String"[C[Cdir[Kcd japigit[C[Cgit add japi.out[1Ppy
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ git add japi.py[C[C[10Pcd ..[C[Cgit commit -m "comment String"[C[Cdir[Kcd japigit[C[Cgit add japi.out[1Ppyout
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ git add japi.out[1Ppy[C[C[10Pcd ..[C[Cgit commit -m "comment String"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCapture.PNG[m
+	[31mHomework/[m
+	[31mPowerpoints and Reference/[m
+	[31mProject Deliverable 5 - Git-API.docx[m
+	[31merror.PNG[m
+	[31mgit.PNG[m
+	[31mgit_activities[m
+	[31mjapigit/[m
+	[31mnextone.PNG[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458[36m (master)[0m
+$ git commit -m "comment String"[C[C[C[C[C[C[14Padd japi.out[1Ppy[C[C[10Pcd ..[C[Cgit commit -m "comment String"[C[Ccd ..[K[K[Kjapigit/
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ cd japigit/[C[Cgit commit -m "comment String"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mjapi.out[m
+	[31mjapi.py[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git commit -m "comment String"[1@a
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mjapi.out[m
+	[31mjapi.py[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ gti [K[K[Kit status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mjapi.out[m
+	[31mjapi.py[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status -s
+[31m??[m japi.out
+[31m??[m japi.py
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ echo "hello there" > g[Khellot[K.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mhello.txt[m
+	[31mjapi.out[m
+	[31mjapi.py[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status -s
+[31m??[m hello.txt
+[31m??[m japi.out
+[31m??[m japi.py
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git add hello.txt
+warning: LF will be replaced by CRLF in hello.txt.
+The file will have its original line endings in your working directory
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status -s
+[32mA[m  hello.txt
+[31m??[m japi.out
+[31m??[m japi.py
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git add japi.py
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   hello.txt[m
+	[32mnew file:   japi.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mjapi.out[m
+
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ giut[K[Kt add japi.out
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   hello.txt[m
+	[32mnew file:   japi.out[m
+	[32mnew file:   japi.py[m
+
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ echo "We are testing git status" >> hellot.[K[K[Ko.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   hello.txt[m
+	[32mnew file:   japi.out[m
+	[32mnew file:   japi.py[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   hello.txt[m
+
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git diff
+[?1h=warning: LF will be replaced by CRLF in hello.txt.[m
+The file will have its original line endings in your working directory[m
+[1mdiff --git a/hello.txt b/hello.txt[m[m
+[1mindex c7c7da3..0fffb77 100644[m[m
+[1m--- a/hello.txt[m[m
+[1m+++ b/hello.txt[m[m
+[36m@@ -1 +1,2 @@[m[m
+ hello there[m[m
+[32m+[m[32mWe are testing git status[m[m
+[K[?1l>]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git commit -m "comment"
+[master (root-commit) ad3b127] comment
+ 3 files changed, 27 insertions(+)
+ create mode 100644 hello.txt
+ create mode 100644 japi.out
+ create mode 100644 japi.py
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   hello.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git log
+[?1h=[33mcommit ad3b127f22c32b14e7cab7c0913fc2cca12ee5c6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Andrea Emberton <aemberto@asu.edu>[m
+Date:   Tue Jul 7 22:12:10 2020 -0500[m
+[m
+    comment[m
+[K[?1l>]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status -s
+ [31mM[m hello.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git log -oneline
+fatal: unrecognized argument: -oneline
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git log --oneline
+[?1h=[33mad3b127[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m comment[m
+[K[?1l>]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git branch
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ echo "master version">>hello.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git commit -am "master version"
+warning: LF will be replaced by CRLF in hello.txt.
+The file will have its original line endings in your working directory
+[master 62271ba] master version
+ 1 file changed, 2 insertions(+)
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git branch feature
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git branch
+[?1h=  feature[m[m
+* [32mmaster[m[m
+[K[?1l>]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git checkout feature
+Switched to branch 'feature'
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (feature)[0m
+$ git branch
+[?1h=* [32mfeature[m[m
+  master[m[m
+[K[?1l>]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (feature)[0m
+$ echo "new file"> [Kher[Kllo_feature
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (feature)[0m
+$ echo "feature version" [K>>hello.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (feature)[0m
+$ git add .
+warning: LF will be replaced by CRLF in hello.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in hello_feature.
+The file will have its original line endings in your working directory
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (feature)[0m
+$ git commit -m "g[Kfeature version"
+[feature f6d0940] feature version
+ 2 files changed, 2 insertions(+)
+ create mode 100644 hello_feature
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (feature)[0m
+$ git checkout master
+Switched to branch 'master'
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git branch
+[?1h=  feature[m[m
+* [32mmaster[m[m
+[K[?1l>]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ echo "ini[K[K[KInitial content">merge.tr[Kxt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git add .
+warning: LF will be replaced by CRLF in merge.txt.
+The file will have its original line endings in your working directory
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git commit -m "adding new fi.[Kle on master"
+[master 45d7c43] adding new file on master
+ 1 file changed, 1 insertion(+)
+ create mode 100644 merge.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git branfch [K[K[K[Kch newbranch
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ echo "Update on master".[K>merge.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git add .
+warning: LF will be replaced by CRLF in merge.txt.
+The file will have its original line endings in your working directory
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git commit -m "update on master"
+[master 97b6d89] update on master
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git checkout newbranch
+Switched to branch 'newbranch'
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (newbranch)[0m
+$ echo "Update on newbranch">merge.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (newbranch)[0m
+$ git commit -am "update on newbranch"
+warning: LF will be replaced by CRLF in merge.txt.
+The file will have its original line endings in your working directory
+[newbranch 103c634] update on newbranch
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (newbranch)[0m
+$ git checkout me[Kaster
+Switched to branch 'master'
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git merge newbranch
+Auto-merging merge.txt
+CONFLICT (content): Merge conflict in merge.txt
+Automatic merge failed; fix conflicts and then commit the result.
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master|MERGING)[0m
+$ git status\[K
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   merge.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master|MERGING)[0m
+$ cat merge/t[K[K.txt
+<<<<<<< HEAD
+Update on master
+=======
+Update on newbranch
+>>>>>>> newbranch
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master|MERGING)[0m
+$ echo "merged version">merge.tex[K[Kxt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master|MERGING)[0m
+$ git add .
+warning: LF will be replaced by CRLF in merge.txt.
+The file will have its original line endings in your working directory
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master|MERGING)[0m
+$ git comi[Kmit -m "Fixed conflicts"
+[master fc42cb0] Fixed conflicts
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status
+On branch master
+nothing to commit, working tree clean
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git branch -d newbranch
+Deleted branch newbranch (was 103c634).
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ echo "file to delete">to)[K_delete.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git add .
+warning: LF will be replaced by CRLF in to_delete.txt.
+The file will have its original line endings in your working directory
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git commit -m "yet another lab file"
+[master 4ca0078] yet another lab file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 to_delete.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git rm to_delete.txt
+rm 'to_delete.txt'
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mdeleted:    to_delete.txt[m
+
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ ls
+hello.txt  japi.out  japi.py  merge.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git reset --hard HA[KEAD
+HEAD is now at 4ca0078 yet another lab file
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status
+On branch master
+nothing to commit, working tree clean
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ ls
+hello.txt  japi.out  japi.py  merge.txt  to_delete.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git rm to [K_delete.txt
+rm 'to_delete.txt'
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git status --sb #[K[K
+error: unknown option `sb'
+usage: git status [<options>] [--] <pathspec>...
+
+    -v, --verbose         be verbose
+    -s, --short           show status concisely
+    -b, --branch          show branch information
+    --show-stash          show stash information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain[=<version>]
+                          machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --ignored[=<mode>]    show ignored files, optional modes: traditional, matching, no. (Default: traditional)
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules, optional when: all, dirty, untracked. (Default: all)
+    --column[=<style>]    list untracked files in columns
+    --no-renames          do not detect renames
+    -M, --find-renames[=<n>]
+                          detect renames, optionally set similarity index
+    --show-ignored-directory
+                          (DEPRECATED: use --ignore=matching instead) Only show directories that match an ignore pattern name.
+    --no-lock-index       (DEPRECATED: use `git --no-optional-locks status` instead) Do not lock the index
+
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ g[Kgit status --sb[?5h[?5l[K[K[Ksb
+## [32mmaster[m
+[32mD[m  to_delete.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ git commit -m "<fui[K[Kile delelt[K[Ktion>"
+[master 6f5e1ce] <file deletion>
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 to_delete.txt
+]0;MINGW64:/c/Users/pinkh/My Documents/School/IFT458/japigit
+[32mpinkh@DESKTOP-KNELC68 [35mMINGW64 [33m~/My Documents/School/IFT458/japigit[36m (master)[0m
+$ exit[K[K[K[Kexit
+exit
